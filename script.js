@@ -166,7 +166,7 @@ radius.domain([0, overallMax]);
           .style("left", e.clientX + 30 + "px") // formatting: puts tooltip to the right of the mouse. ref: https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
           .style("top", e.clientY + "px")
           .html(`${d.name}<br>
-                Avg. temp: ${d.avg_temp}°C<br>
+                Avg. temp: ${d.avg_temp.toFixed(1)}°C<br>
                 Gold: ${bd.gold} <br>
                 Silver: ${bd.silver} <br>
                 Bronze: ${bd.bronze}<br>
