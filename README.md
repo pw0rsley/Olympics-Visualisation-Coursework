@@ -10,13 +10,7 @@ Below is the link to the live WebApp:
 
 
 
-https://pages.github.kcl.ac.uk/K25130590/7CCSMSDV-Introduction-to-Data-Visualisation-Coursework
-
-
-
-
-
-
+\[Live WebApp](https://pages.github.kcl.ac.uk/K25130590/7CCSMSDV-Introduction-to-Data-Visualisation-Coursework)
 
 
 
