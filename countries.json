@@ -2189,21 +2189,22 @@
       }
     }
   },
-  {
+    {
     "ioc": "NIG",
     "name": "Niger",
     "iso_code": "NER",
     "numeric_id": 562,
-    "avg_temp": 26.818,
-    "total": 1,
+    "avg_temp": 28.404,
     "medals": {
-      "Summer": 1
+      "Summer": 1,
+      "Winter": 0,
+      "Both": 1
     },
     "breakdown": {
       "Summer": {
-        "gold": 0,
-        "silver": 1,
-        "bronze": 0
+        "gold": 0.0,
+        "silver": 1.0,
+        "bronze": 0.0
       }
     }
   },
