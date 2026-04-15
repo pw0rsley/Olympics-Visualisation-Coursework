@@ -19,10 +19,18 @@
   width: 100%;
 }
 
+.footnote {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 11px;
+  color: #777;
+}
+
 
 .season-dropdown {
     position: fixed;
-    right:25vw;
+    right:32vw;
     top:4vh;
     font-size: 1vw;
     font-weight: bold;
@@ -41,20 +49,20 @@
 .country {
   fill: white;
   stroke: #aaa;
-  stroke-width: 0.04vh;
+  stroke-width: 0.07vh;
 }
 
 /* Shared country borders (single merged path from topojson.mesh). Essential or else chunks of map appear black */
 .borders {
   fill: none;
-  stroke: #aaa;
-  stroke-width: 0.04vh;
+  stroke: #777;
+  stroke-width: 0.08vh;
 }
 
 .bubble {
   fill-opacity: 0.9;
   stroke: white;
-  stroke-width: 0.05vh;
+  stroke-width: 0.08vh;
 }
 
 /* ------------------------------
@@ -81,13 +89,12 @@
 #legend {
   position: fixed;
   top: 3vh;
-  right: 3vh;
+  right: 3vw;
   padding: 1vh;
 }
 
 #legend-colour {
   width: 100%;
-  height: auto; /* scales to screen size */
 }
 
 
@@ -96,5 +103,10 @@
 }
 
 #legend-size-svg {
+  position: fixed;
+  top: 10vh;
+  right: 0vw;
+  padding: 2vh;
   margin-top: 2vh;
 }
+
