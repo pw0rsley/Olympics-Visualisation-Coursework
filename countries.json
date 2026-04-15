@@ -1,0 +1,2354 @@
+[
+  {
+    "ioc": "USA",
+    "name": "United States of America",
+    "iso_code": "USA",
+    "numeric_id": 840,
+    "avg_temp": 11.788,
+    "total": 870,
+    "medals": {
+      "Summer": 681,
+      "Winter": 189
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 254,
+        "silver": 219,
+        "bronze": 208
+      },
+      "Winter": {
+        "gold": 58,
+        "silver": 71,
+        "bronze": 60
+      }
+    }
+  },
+  {
+    "ioc": "RUS",
+    "name": "Russia",
+    "iso_code": "RUS",
+    "numeric_id": 643,
+    "avg_temp": 1.936,
+    "total": 616,
+    "medals": {
+      "Summer": 468,
+      "Winter": 148
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 154,
+        "silver": 145,
+        "bronze": 169
+      },
+      "Winter": {
+        "gold": 40,
+        "silver": 48,
+        "bronze": 60
+      }
+    }
+  },
+  {
+    "ioc": "CHN",
+    "name": "People's Republic of China",
+    "iso_code": "CHN",
+    "numeric_id": 156,
+    "avg_temp": 12.776,
+    "total": 612,
+    "medals": {
+      "Summer": 542,
+      "Winter": 70
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 251,
+        "silver": 156,
+        "bronze": 135
+      },
+      "Winter": {
+        "gold": 24,
+        "silver": 25,
+        "bronze": 21
+      }
+    }
+  },
+  {
+    "ioc": "GER",
+    "name": "Germany",
+    "iso_code": "DEU",
+    "numeric_id": 276,
+    "avg_temp": 9.533,
+    "total": 513,
+    "medals": {
+      "Summer": 313,
+      "Winter": 200
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 92,
+        "silver": 101,
+        "bronze": 120
+      },
+      "Winter": {
+        "gold": 82,
+        "silver": 74,
+        "bronze": 44
+      }
+    }
+  },
+  {
+    "ioc": "GBR",
+    "name": "Great Britain",
+    "iso_code": "GBR",
+    "numeric_id": 826,
+    "avg_temp": 9.841,
+    "total": 363,
+    "medals": {
+      "Summer": 347,
+      "Winter": 16
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 130,
+        "silver": 112,
+        "bronze": 105
+      },
+      "Winter": {
+        "gold": 5,
+        "silver": 3,
+        "bronze": 8
+      }
+    }
+  },
+  {
+    "ioc": "FRA",
+    "name": "France",
+    "iso_code": "FRA",
+    "numeric_id": 250,
+    "avg_temp": 12.989,
+    "total": 322,
+    "medals": {
+      "Summer": 243,
+      "Winter": 79
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 66,
+        "silver": 84,
+        "bronze": 93
+      },
+      "Winter": {
+        "gold": 25,
+        "silver": 26,
+        "bronze": 28
+      }
+    }
+  },
+  {
+    "ioc": "AUS",
+    "name": "Australia",
+    "iso_code": "AUS",
+    "numeric_id": 36,
+    "avg_temp": 19.178,
+    "total": 318,
+    "medals": {
+      "Summer": 301,
+      "Winter": 17
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 94,
+        "silver": 102,
+        "bronze": 105
+      },
+      "Winter": {
+        "gold": 6,
+        "silver": 7,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "CAN",
+    "name": "Canada",
+    "iso_code": "CAN",
+    "numeric_id": 124,
+    "avg_temp": 0.397,
+    "total": 284,
+    "medals": {
+      "Summer": 123,
+      "Winter": 161
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 23,
+        "silver": 38,
+        "bronze": 62
+      },
+      "Winter": {
+        "gold": 60,
+        "silver": 50,
+        "bronze": 51
+      }
+    }
+  },
+  {
+    "ioc": "JPN",
+    "name": "Japan",
+    "iso_code": "JPN",
+    "numeric_id": 392,
+    "avg_temp": 13.098,
+    "total": 273,
+    "medals": {
+      "Summer": 226,
+      "Winter": 47
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 78,
+        "silver": 64,
+        "bronze": 84
+      },
+      "Winter": {
+        "gold": 9,
+        "silver": 19,
+        "bronze": 19
+      }
+    }
+  },
+  {
+    "ioc": "ITA",
+    "name": "Italy",
+    "iso_code": "ITA",
+    "numeric_id": 380,
+    "avg_temp": 12.448,
+    "total": 272,
+    "medals": {
+      "Summer": 203,
+      "Winter": 69
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 60,
+        "silver": 64,
+        "bronze": 79
+      },
+      "Winter": {
+        "gold": 16,
+        "silver": 17,
+        "bronze": 36
+      }
+    }
+  },
+  {
+    "ioc": "KOR",
+    "name": "Republic of Korea",
+    "iso_code": "KOR",
+    "numeric_id": 410,
+    "avg_temp": 12.909,
+    "total": 238,
+    "medals": {
+      "Summer": 175,
+      "Winter": 63
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 61,
+        "silver": 53,
+        "bronze": 61
+      },
+      "Winter": {
+        "gold": 24,
+        "silver": 27,
+        "bronze": 12
+      }
+    }
+  },
+  {
+    "ioc": "NED",
+    "name": "Netherlands",
+    "iso_code": "NLD",
+    "numeric_id": 528,
+    "avg_temp": 10.493,
+    "total": 237,
+    "medals": {
+      "Summer": 151,
+      "Winter": 86
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 49,
+        "silver": 53,
+        "bronze": 49
+      },
+      "Winter": {
+        "gold": 34,
+        "silver": 26,
+        "bronze": 26
+      }
+    }
+  },
+  {
+    "ioc": "NOR",
+    "name": "Norway",
+    "iso_code": "NOR",
+    "numeric_id": 578,
+    "avg_temp": 3.663,
+    "total": 223,
+    "medals": {
+      "Summer": 46,
+      "Winter": 177
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 19,
+        "silver": 12,
+        "bronze": 15
+      },
+      "Winter": {
+        "gold": 69,
+        "silver": 50,
+        "bronze": 58
+      }
+    }
+  },
+  {
+    "ioc": "SWE",
+    "name": "Sweden",
+    "iso_code": "SWE",
+    "numeric_id": 752,
+    "avg_temp": 5.689,
+    "total": 146,
+    "medals": {
+      "Summer": 59,
+      "Winter": 87
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 16,
+        "silver": 30,
+        "bronze": 13
+      },
+      "Winter": {
+        "gold": 31,
+        "silver": 27,
+        "bronze": 29
+      }
+    }
+  },
+  {
+    "ioc": "AUT",
+    "name": "Austria",
+    "iso_code": "AUT",
+    "numeric_id": 40,
+    "avg_temp": 7.132,
+    "total": 134,
+    "medals": {
+      "Summer": 24,
+      "Winter": 110
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 7,
+        "silver": 7,
+        "bronze": 10
+      },
+      "Winter": {
+        "gold": 34,
+        "silver": 37,
+        "bronze": 39
+      }
+    }
+  },
+  {
+    "ioc": "UKR",
+    "name": "Ukraine",
+    "iso_code": "UKR",
+    "numeric_id": 804,
+    "avg_temp": 9.247,
+    "total": 131,
+    "medals": {
+      "Summer": 124,
+      "Winter": 7
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 26,
+        "silver": 36,
+        "bronze": 62
+      },
+      "Winter": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "CUB",
+    "name": "Cuba",
+    "iso_code": "CUB",
+    "numeric_id": 192,
+    "avg_temp": 25.503,
+    "total": 130,
+    "medals": {
+      "Summer": 130
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 41,
+        "silver": 38,
+        "bronze": 51
+      }
+    }
+  },
+  {
+    "ioc": "SUI",
+    "name": "Switzerland",
+    "iso_code": "CHE",
+    "numeric_id": 756,
+    "avg_temp": 6.517,
+    "total": 130,
+    "medals": {
+      "Summer": 51,
+      "Winter": 79
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 13,
+        "silver": 19,
+        "bronze": 19
+      },
+      "Winter": {
+        "gold": 34,
+        "silver": 18,
+        "bronze": 27
+      }
+    }
+  },
+  {
+    "ioc": "ESP",
+    "name": "Spain",
+    "iso_code": "ESP",
+    "numeric_id": 724,
+    "avg_temp": 14.427,
+    "total": 123,
+    "medals": {
+      "Summer": 120,
+      "Winter": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 31,
+        "silver": 55,
+        "bronze": 34
+      },
+      "Winter": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "BRA",
+    "name": "Brazil",
+    "iso_code": "BRA",
+    "numeric_id": 76,
+    "avg_temp": 24.491,
+    "total": 116,
+    "medals": {
+      "Summer": 116
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 30,
+        "silver": 37,
+        "bronze": 49
+      }
+    }
+  },
+  {
+    "ioc": "HUN",
+    "name": "Hungary",
+    "iso_code": "HUN",
+    "numeric_id": 348,
+    "avg_temp": 11.298,
+    "total": 113,
+    "medals": {
+      "Summer": 109,
+      "Winter": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 47,
+        "silver": 33,
+        "bronze": 29
+      },
+      "Winter": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "POL",
+    "name": "Poland",
+    "iso_code": "POL",
+    "numeric_id": 616,
+    "avg_temp": 8.817,
+    "total": 103,
+    "medals": {
+      "Summer": 84,
+      "Winter": 19
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 25,
+        "silver": 26,
+        "bronze": 33
+      },
+      "Winter": {
+        "gold": 6,
+        "silver": 6,
+        "bronze": 7
+      }
+    }
+  },
+  {
+    "ioc": "BLR",
+    "name": "Belarus",
+    "iso_code": "BLR",
+    "numeric_id": 112,
+    "avg_temp": 7.344,
+    "total": 94,
+    "medals": {
+      "Summer": 78,
+      "Winter": 16
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 14,
+        "silver": 26,
+        "bronze": 38
+      },
+      "Winter": {
+        "gold": 8,
+        "silver": 5,
+        "bronze": 3
+      }
+    }
+  },
+  {
+    "ioc": "CZE",
+    "name": "Czech Republic",
+    "iso_code": "CZE",
+    "numeric_id": 203,
+    "avg_temp": 8.678,
+    "total": 94,
+    "medals": {
+      "Summer": 64,
+      "Winter": 30
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 16,
+        "silver": 20,
+        "bronze": 28
+      },
+      "Winter": {
+        "gold": 9,
+        "silver": 10,
+        "bronze": 11
+      }
+    }
+  },
+  {
+    "ioc": "NZL",
+    "name": "New Zealand",
+    "iso_code": "NZL",
+    "numeric_id": 554,
+    "avg_temp": 11.405,
+    "total": 93,
+    "medals": {
+      "Summer": 88,
+      "Winter": 5
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 33,
+        "silver": 27,
+        "bronze": 28
+      },
+      "Winter": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "ROU",
+    "name": "Romania",
+    "iso_code": "ROU",
+    "numeric_id": 642,
+    "avg_temp": 10.281,
+    "total": 79,
+    "medals": {
+      "Summer": 79
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 34,
+        "silver": 22,
+        "bronze": 23
+      }
+    }
+  },
+  {
+    "ioc": "DEN",
+    "name": "Denmark",
+    "iso_code": "DNK",
+    "numeric_id": 208,
+    "avg_temp": 8.972,
+    "total": 71,
+    "medals": {
+      "Summer": 71
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 16,
+        "silver": 24,
+        "bronze": 31
+      }
+    }
+  },
+  {
+    "ioc": "KEN",
+    "name": "Kenya",
+    "iso_code": "KEN",
+    "numeric_id": 404,
+    "avg_temp": 22.77,
+    "total": 65,
+    "medals": {
+      "Summer": 65
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 21,
+        "silver": 25,
+        "bronze": 19
+      }
+    }
+  },
+  {
+    "ioc": "KAZ",
+    "name": "Kazakhstan",
+    "iso_code": "KAZ",
+    "numeric_id": 398,
+    "avg_temp": 6.706,
+    "total": 64,
+    "medals": {
+      "Summer": 61,
+      "Winter": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 12,
+        "silver": 18,
+        "bronze": 31
+      },
+      "Winter": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "FIN",
+    "name": "Finland",
+    "iso_code": "FIN",
+    "numeric_id": 246,
+    "avg_temp": 4.915,
+    "total": 62,
+    "medals": {
+      "Summer": 18,
+      "Winter": 44
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 4,
+        "silver": 7,
+        "bronze": 7
+      },
+      "Winter": {
+        "gold": 9,
+        "silver": 17,
+        "bronze": 18
+      }
+    }
+  },
+  {
+    "ioc": "JAM",
+    "name": "Jamaica",
+    "iso_code": "JAM",
+    "numeric_id": 388,
+    "avg_temp": 25.665,
+    "total": 56,
+    "medals": {
+      "Summer": 56
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 21,
+        "silver": 20,
+        "bronze": 15
+      }
+    }
+  },
+  {
+    "ioc": "CRO",
+    "name": "Croatia",
+    "iso_code": "HRV",
+    "numeric_id": 191,
+    "avg_temp": 12.258,
+    "total": 54,
+    "medals": {
+      "Summer": 43,
+      "Winter": 11
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 17,
+        "silver": 13,
+        "bronze": 13
+      },
+      "Winter": {
+        "gold": 4,
+        "silver": 6,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "GRE",
+    "name": "Greece",
+    "iso_code": "GRC",
+    "numeric_id": 300,
+    "avg_temp": 15.653,
+    "total": 50,
+    "medals": {
+      "Summer": 50
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 17,
+        "silver": 17,
+        "bronze": 16
+      }
+    }
+  },
+  {
+    "ioc": "AZE",
+    "name": "Azerbaijan",
+    "iso_code": "AZE",
+    "numeric_id": 31,
+    "avg_temp": 11.761,
+    "total": 49,
+    "medals": {
+      "Summer": 49
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 7,
+        "silver": 13,
+        "bronze": 29
+      }
+    }
+  },
+  {
+    "ioc": "SLO",
+    "name": "Slovenia",
+    "iso_code": "SVN",
+    "numeric_id": 705,
+    "avg_temp": 10.293,
+    "total": 48,
+    "medals": {
+      "Summer": 27,
+      "Winter": 21
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 9,
+        "silver": 8,
+        "bronze": 10
+      },
+      "Winter": {
+        "gold": 4,
+        "silver": 8,
+        "bronze": 9
+      }
+    }
+  },
+  {
+    "ioc": "BUL",
+    "name": "Bulgaria",
+    "iso_code": "BGR",
+    "numeric_id": 100,
+    "avg_temp": 11.483,
+    "total": 46,
+    "medals": {
+      "Summer": 42,
+      "Winter": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 11,
+        "silver": 12,
+        "bronze": 19
+      },
+      "Winter": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "SVK",
+    "name": "Slovakia",
+    "iso_code": "SVK",
+    "numeric_id": 703,
+    "avg_temp": 9.244,
+    "total": 44,
+    "medals": {
+      "Summer": 34,
+      "Winter": 10
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 13,
+        "silver": 13,
+        "bronze": 8
+      },
+      "Winter": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "TUR",
+    "name": "Turkey",
+    "iso_code": "TUR",
+    "numeric_id": 792,
+    "avg_temp": 11.779,
+    "total": 44,
+    "medals": {
+      "Summer": 44
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 11,
+        "silver": 10,
+        "bronze": 23
+      }
+    }
+  },
+  {
+    "ioc": "ETH",
+    "name": "Ethiopia",
+    "iso_code": "ETH",
+    "numeric_id": 231,
+    "avg_temp": 22.681,
+    "total": 41,
+    "medals": {
+      "Summer": 41
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 15,
+        "silver": 11,
+        "bronze": 15
+      }
+    }
+  },
+  {
+    "ioc": "IRI",
+    "name": "Islamic Republic of Iran",
+    "iso_code": "IRN",
+    "numeric_id": 364,
+    "avg_temp": 16.215,
+    "total": 40,
+    "medals": {
+      "Summer": 40
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 18,
+        "silver": 11,
+        "bronze": 11
+      }
+    }
+  },
+  {
+    "ioc": "GEO",
+    "name": "Georgia",
+    "iso_code": "GEO",
+    "numeric_id": 268,
+    "avg_temp": 8.364,
+    "total": 38,
+    "medals": {
+      "Summer": 38
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 10,
+        "silver": 12,
+        "bronze": 16
+      }
+    }
+  },
+  {
+    "ioc": "MEX",
+    "name": "Mexico",
+    "iso_code": "MEX",
+    "numeric_id": 484,
+    "avg_temp": 20.771,
+    "total": 36,
+    "medals": {
+      "Summer": 36
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 4,
+        "silver": 13,
+        "bronze": 19
+      }
+    }
+  },
+  {
+    "ioc": "ARG",
+    "name": "Argentina",
+    "iso_code": "ARG",
+    "numeric_id": 32,
+    "avg_temp": 15.522,
+    "total": 34,
+    "medals": {
+      "Summer": 34
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 10,
+        "silver": 5,
+        "bronze": 19
+      }
+    }
+  },
+  {
+    "ioc": "INA",
+    "name": "Indonesia",
+    "iso_code": "IDN",
+    "numeric_id": 360,
+    "avg_temp": 25.352,
+    "total": 34,
+    "medals": {
+      "Summer": 34
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 9,
+        "silver": 12,
+        "bronze": 13
+      }
+    }
+  },
+  {
+    "ioc": "RSA",
+    "name": "South Africa",
+    "iso_code": "ZAF",
+    "numeric_id": 710,
+    "avg_temp": 17.75,
+    "total": 33,
+    "medals": {
+      "Summer": 33
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 8,
+        "silver": 16,
+        "bronze": 9
+      }
+    }
+  },
+  {
+    "ioc": "UZB",
+    "name": "Uzbekistan",
+    "iso_code": "UZB",
+    "numeric_id": 860,
+    "avg_temp": 12.888,
+    "total": 33,
+    "medals": {
+      "Summer": 33
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 10,
+        "silver": 5,
+        "bronze": 18
+      }
+    }
+  },
+  {
+    "ioc": "BEL",
+    "name": "Belgium",
+    "iso_code": "BEL",
+    "numeric_id": 56,
+    "avg_temp": 10.418,
+    "total": 31,
+    "medals": {
+      "Summer": 28,
+      "Winter": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 8,
+        "silver": 7,
+        "bronze": 13
+      },
+      "Winter": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "LAT",
+    "name": "Latvia",
+    "iso_code": "LVA",
+    "numeric_id": 428,
+    "avg_temp": 6.851,
+    "total": 29,
+    "medals": {
+      "Summer": 15,
+      "Winter": 14
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 4,
+        "silver": 6,
+        "bronze": 5
+      },
+      "Winter": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 9
+      }
+    }
+  },
+  {
+    "ioc": "PRK",
+    "name": "Democratic People's Republic of Korea",
+    "iso_code": "PRK",
+    "numeric_id": 408,
+    "avg_temp": 7.321,
+    "total": 29,
+    "medals": {
+      "Summer": 29
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 8,
+        "silver": 10,
+        "bronze": 11
+      }
+    }
+  },
+  {
+    "ioc": "THA",
+    "name": "Thailand",
+    "iso_code": "THA",
+    "numeric_id": 764,
+    "avg_temp": 26.926,
+    "total": 29,
+    "medals": {
+      "Summer": 29
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 9,
+        "silver": 7,
+        "bronze": 13
+      }
+    }
+  },
+  {
+    "ioc": "COL",
+    "name": "Colombia",
+    "iso_code": "COL",
+    "numeric_id": 170,
+    "avg_temp": 22.745,
+    "total": 28,
+    "medals": {
+      "Summer": 28
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 5,
+        "silver": 11,
+        "bronze": 12
+      }
+    }
+  },
+  {
+    "ioc": "LTU",
+    "name": "Lithuania",
+    "iso_code": "LTU",
+    "numeric_id": 440,
+    "avg_temp": 7.397,
+    "total": 27,
+    "medals": {
+      "Summer": 27
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 5,
+        "silver": 8,
+        "bronze": 14
+      }
+    }
+  },
+  {
+    "ioc": "SRB",
+    "name": "Serbia",
+    "iso_code": "SRB",
+    "numeric_id": 688,
+    "avg_temp": 11.61,
+    "total": 25,
+    "medals": {
+      "Summer": 25
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 6,
+        "silver": 8,
+        "bronze": 11
+      }
+    }
+  },
+  {
+    "ioc": "EST",
+    "name": "Estonia",
+    "iso_code": "EST",
+    "numeric_id": 233,
+    "avg_temp": 6.298,
+    "total": 22,
+    "medals": {
+      "Summer": 14,
+      "Winter": 8
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 7
+      },
+      "Winter": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "EGY",
+    "name": "Egypt",
+    "iso_code": "EGY",
+    "numeric_id": 818,
+    "avg_temp": 22.29,
+    "total": 20,
+    "medals": {
+      "Summer": 20
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 13
+      }
+    }
+  },
+  {
+    "ioc": "IND",
+    "name": "India",
+    "iso_code": "IND",
+    "numeric_id": 356,
+    "avg_temp": 22.575,
+    "total": 20,
+    "medals": {
+      "Summer": 20
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 12
+      }
+    }
+  },
+  {
+    "ioc": "IRL",
+    "name": "Ireland",
+    "iso_code": "IRL",
+    "numeric_id": 372,
+    "avg_temp": 9.929,
+    "total": 18,
+    "medals": {
+      "Summer": 18
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 4,
+        "silver": 6,
+        "bronze": 8
+      }
+    }
+  },
+  {
+    "ioc": "ARM",
+    "name": "Armenia",
+    "iso_code": "ARM",
+    "numeric_id": 51,
+    "avg_temp": 7.271,
+    "total": 16,
+    "medals": {
+      "Summer": 16
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 7,
+        "bronze": 8
+      }
+    }
+  },
+  {
+    "ioc": "MGL",
+    "name": "Mongolia",
+    "iso_code": "MNG",
+    "numeric_id": 496,
+    "avg_temp": 0.761,
+    "total": 16,
+    "medals": {
+      "Summer": 16
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 8
+      }
+    }
+  },
+  {
+    "ioc": "MAS",
+    "name": "Malaysia",
+    "iso_code": "MYS",
+    "numeric_id": 458,
+    "avg_temp": 26.299,
+    "total": 14,
+    "medals": {
+      "Summer": 14
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 10,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "POR",
+    "name": "Portugal",
+    "iso_code": "PRT",
+    "numeric_id": 620,
+    "avg_temp": 16.195,
+    "total": 14,
+    "medals": {
+      "Summer": 14
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 6
+      }
+    }
+  },
+  {
+    "ioc": "MAR",
+    "name": "Morocco",
+    "iso_code": "MAR",
+    "numeric_id": 504,
+    "avg_temp": 18.182,
+    "total": 13,
+    "medals": {
+      "Summer": 13
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 7
+      }
+    }
+  },
+  {
+    "ioc": "NGR",
+    "name": "Nigeria",
+    "iso_code": "NGA",
+    "numeric_id": 566,
+    "avg_temp": 26.818,
+    "total": 13,
+    "medals": {
+      "Summer": 13
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 7
+      }
+    }
+  },
+  {
+    "ioc": "BAH",
+    "name": "Bahamas",
+    "iso_code": "BHS",
+    "numeric_id": 44,
+    "avg_temp": 25.389,
+    "total": 12,
+    "medals": {
+      "Summer": 12
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 7,
+        "silver": 1,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "DOM",
+    "name": "Dominican Republic",
+    "iso_code": "DOM",
+    "numeric_id": 214,
+    "avg_temp": 24.045,
+    "total": 11,
+    "medals": {
+      "Summer": 11
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 3
+      }
+    }
+  },
+  {
+    "ioc": "VEN",
+    "name": "Venezuela",
+    "iso_code": "VEN",
+    "numeric_id": 862,
+    "avg_temp": 25.132,
+    "total": 11,
+    "medals": {
+      "Summer": 11
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "ALG",
+    "name": "Algeria",
+    "iso_code": "DZA",
+    "numeric_id": 12,
+    "avg_temp": 18.514,
+    "total": 10,
+    "medals": {
+      "Summer": 10
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "ISR",
+    "name": "Israel",
+    "iso_code": "ISR",
+    "numeric_id": 376,
+    "avg_temp": 20.126,
+    "total": 10,
+    "medals": {
+      "Summer": 10
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 7
+      }
+    }
+  },
+  {
+    "ioc": "TTO",
+    "name": "Trinidad and Tobago",
+    "iso_code": "TTO",
+    "numeric_id": 780,
+    "avg_temp": 26.328,
+    "total": 10,
+    "medals": {
+      "Summer": 10
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 5
+      }
+    }
+  },
+  {
+    "ioc": "TUN",
+    "name": "Tunisia",
+    "iso_code": "TUN",
+    "numeric_id": 788,
+    "avg_temp": 19.59,
+    "total": 9,
+    "medals": {
+      "Summer": 9
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 4,
+        "silver": 1,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "QAT",
+    "name": "Qatar",
+    "iso_code": "QAT",
+    "numeric_id": 634,
+    "avg_temp": 27.459,
+    "total": 8,
+    "medals": {
+      "Summer": 8
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "KGZ",
+    "name": "Kyrgyzstan",
+    "iso_code": "KGZ",
+    "numeric_id": 417,
+    "avg_temp": 2.122,
+    "total": 7,
+    "medals": {
+      "Summer": 7
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 4
+      }
+    }
+  },
+  {
+    "ioc": "ZIM",
+    "name": "Zimbabwe",
+    "iso_code": "ZWE",
+    "numeric_id": 716,
+    "avg_temp": 21.01,
+    "total": 7,
+    "medals": {
+      "Summer": 7
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "CHI",
+    "name": "Chile",
+    "iso_code": "CHL",
+    "numeric_id": 152,
+    "avg_temp": 9.668,
+    "total": 6,
+    "medals": {
+      "Summer": 6
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "PHI",
+    "name": "Philippines",
+    "iso_code": "PHL",
+    "numeric_id": 608,
+    "avg_temp": 26.029,
+    "total": 5,
+    "medals": {
+      "Summer": 5
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "UGA",
+    "name": "Uganda",
+    "iso_code": "UGA",
+    "numeric_id": 800,
+    "avg_temp": 22.722,
+    "total": 5,
+    "medals": {
+      "Summer": 5
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "BRN",
+    "name": "Bahrain",
+    "iso_code": "BRN",
+    "numeric_id": 96,
+    "avg_temp": 26.322,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "CMR",
+    "name": "Cameroon",
+    "iso_code": "CMR",
+    "numeric_id": 120,
+    "avg_temp": 24.356,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "ECU",
+    "name": "Ecuador",
+    "iso_code": "ECU",
+    "numeric_id": 218,
+    "avg_temp": 20.888,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "KSA",
+    "name": "Saudi Arabia",
+    "iso_code": "SAU",
+    "numeric_id": 682,
+    "avg_temp": 25.806,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "MDA",
+    "name": "Republic of Moldova",
+    "iso_code": "MDA",
+    "numeric_id": 498,
+    "avg_temp": 10.544,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+      }
+    }
+  },
+  {
+    "ioc": "SGP",
+    "name": "Singapore",
+    "iso_code": "SGP",
+    "numeric_id": 702,
+    "avg_temp": 27.042,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "SMR",
+    "name": "San Marino",
+    "iso_code": "SMR",
+    "numeric_id": 674,
+    "avg_temp": 14.747,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "TJK",
+    "name": "Tajikistan",
+    "iso_code": "TJK",
+    "numeric_id": 762,
+    "avg_temp": 5.179,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "VIE",
+    "name": "Vietnam",
+    "iso_code": "VNM",
+    "numeric_id": 704,
+    "avg_temp": 24.747,
+    "total": 4,
+    "medals": {
+      "Summer": 4
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "CIV",
+    "name": "C\u00f4te d'Ivoire",
+    "iso_code": "CIV",
+    "numeric_id": 384,
+    "avg_temp": 26.333,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "FIJ",
+    "name": "Fiji",
+    "iso_code": "FJI",
+    "numeric_id": 242,
+    "avg_temp": 24.344,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "GRN",
+    "name": "Grenada",
+    "iso_code": "GRD",
+    "numeric_id": 308,
+    "avg_temp": 26.499,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "JOR",
+    "name": "Jordan",
+    "iso_code": "JOR",
+    "numeric_id": 400,
+    "avg_temp": 19.411,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "KOS",
+    "name": "Kosovo",
+    "iso_code": "SRB",
+    "numeric_id": 688,
+    "avg_temp": 11.61,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "KUW",
+    "name": "Kuwait",
+    "iso_code": "KWT",
+    "numeric_id": 414,
+    "avg_temp": 26.272,
+    "total": 3,
+    "medals": {
+      "Summer": 3
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
+    }
+  },
+  {
+    "ioc": "AFG",
+    "name": "Afghanistan",
+    "iso_code": "AFG",
+    "numeric_id": 4,
+    "avg_temp": 9.724,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "BOT",
+    "name": "Botswana",
+    "iso_code": "BWA",
+    "numeric_id": 72,
+    "avg_temp": 21.646,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "CRC",
+    "name": "Costa Rica",
+    "iso_code": "CRI",
+    "numeric_id": 188,
+    "avg_temp": 22.346,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "ISL",
+    "name": "Iceland",
+    "iso_code": "ISL",
+    "numeric_id": 352,
+    "avg_temp": 1.84,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "MKD",
+    "name": "North Macedonia",
+    "iso_code": "MKD",
+    "numeric_id": 807,
+    "avg_temp": 11.246,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "SYR",
+    "name": "Syrian Arab Republic",
+    "iso_code": "SYR",
+    "numeric_id": 760,
+    "avg_temp": 18.398,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
+    }
+  },
+  {
+    "ioc": "UAE",
+    "name": "United Arab Emirates",
+    "iso_code": "ARE",
+    "numeric_id": 784,
+    "avg_temp": 28.058,
+    "total": 2,
+    "medals": {
+      "Summer": 2
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "BAR",
+    "name": "Barbados",
+    "iso_code": "BRB",
+    "numeric_id": 52,
+    "avg_temp": 26.432,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "BDI",
+    "name": "Burundi",
+    "iso_code": "BDI",
+    "numeric_id": 108,
+    "avg_temp": 20.498,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "BUR",
+    "name": "Burkina Faso",
+    "iso_code": "BFA",
+    "numeric_id": 854,
+    "avg_temp": 28.552,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "CYP",
+    "name": "Cyprus",
+    "iso_code": "CYP",
+    "numeric_id": 196,
+    "avg_temp": 19.235,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "ERI",
+    "name": "Eritrea",
+    "iso_code": "ERI",
+    "numeric_id": 232,
+    "avg_temp": 25.12,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "GAB",
+    "name": "Gabon",
+    "iso_code": "GAB",
+    "numeric_id": 266,
+    "avg_temp": 24.68,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "GHA",
+    "name": "Ghana",
+    "iso_code": "GHA",
+    "numeric_id": 288,
+    "avg_temp": 27.197,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "GUA",
+    "name": "Guatemala",
+    "iso_code": "GTM",
+    "numeric_id": 320,
+    "avg_temp": 22.019,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "LIE",
+    "name": "Liechtenstein",
+    "iso_code": "LIE",
+    "numeric_id": 438,
+    "avg_temp": 6.169,
+    "total": 1,
+    "medals": {
+      "Winter": 1
+    },
+    "breakdown": {
+      "Winter": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "MNE",
+    "name": "Montenegro",
+    "iso_code": "MNE",
+    "numeric_id": 499,
+    "avg_temp": 11.284,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "MOZ",
+    "name": "Mozambique",
+    "iso_code": "MOZ",
+    "numeric_id": 508,
+    "avg_temp": 23.835,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "MRI",
+    "name": "Mauritius",
+    "iso_code": "MUS",
+    "numeric_id": 480,
+    "avg_temp": 24.307,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "NAM",
+    "name": "Namibia",
+    "iso_code": "NAM",
+    "numeric_id": 516,
+    "avg_temp": 22.104,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "NIG",
+    "name": "Niger",
+    "iso_code": "NGA",
+    "numeric_id": 566,
+    "avg_temp": 26.818,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "PAN",
+    "name": "Panama",
+    "iso_code": "PAN",
+    "numeric_id": 591,
+    "avg_temp": 24.924,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "PAR",
+    "name": "Paraguay",
+    "iso_code": "PRY",
+    "numeric_id": 600,
+    "avg_temp": 22.641,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "SAM",
+    "name": "Samoa",
+    "iso_code": "WSM",
+    "numeric_id": 882,
+    "avg_temp": 25.476,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "SRI",
+    "name": "Sri Lanka",
+    "iso_code": "LKA",
+    "numeric_id": 144,
+    "avg_temp": 26.588,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "SUD",
+    "name": "Sudan",
+    "iso_code": "SDN",
+    "numeric_id": 729,
+    "avg_temp": 28.245,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "TKM",
+    "name": "Turkmenistan",
+    "iso_code": "TKM",
+    "numeric_id": 795,
+    "avg_temp": 16.379,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  },
+  {
+    "ioc": "TOG",
+    "name": "Togo",
+    "iso_code": "TGO",
+    "numeric_id": 768,
+    "avg_temp": 27.082,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
+    }
+  },
+  {
+    "ioc": "URU",
+    "name": "Uruguay",
+    "iso_code": "URY",
+    "numeric_id": 858,
+    "avg_temp": 17.264,
+    "total": 1,
+    "medals": {
+      "Summer": 1
+    },
+    "breakdown": {
+      "Summer": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
+    }
+  }
+]

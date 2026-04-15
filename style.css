@@ -1,0 +1,100 @@
+
+/* ---------------------------------------------------------------
+ style.css handles the styling
+ ----------------------------------------------------------------- */
+/* ------------------------------
+1. Page, dropdown, subtext
+ ------------------------------ */
+
+/* Size chart */
+/* Used vh and vx as opposed to px to try to ensure marker gets consistent view regardless if its viewed on monitor or laptop. (for font size and positioning) */
+#chart {
+  display: block;
+  width: 100%;
+}
+
+.header-text {
+  text-align: left;
+  padding-left: 30vw;
+  width: 100%;
+}
+
+
+.season-dropdown {
+    position: fixed;
+    right:25vw;
+    top:4vh;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.season-dropdown select {
+  font-size: 0.8vw;  /* bigger dropdown itself */
+  padding: 0.2vh 0.5vh;
+}
+
+/* ------------------------------
+2. Map
+  ------------------------------ */
+
+/* Plain white fill with thin grey outlines so colours stand out */
+.country {
+  fill: white;
+  stroke: #aaa;
+  stroke-width: 0.04vh;
+}
+
+/* Shared country borders (single merged path from topojson.mesh). Essential or else chunks of map appear black */
+.borders {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 0.04vh;
+}
+
+.bubble {
+  fill-opacity: 0.9;
+  stroke: white;
+  stroke-width: 0.05vh;
+}
+
+/* ------------------------------
+3. Tooltip
+  ------------------------------ */
+
+/* Ensures tooltip is visible (position) and smoother to look at (transition) */
+#tooltip {
+  pointer-events: none;
+  position: fixed;
+  transition: opacity 0.10s;
+}
+
+/* Hides the tooltip when not hovering over a particular bubble */
+#tooltip.hide {
+  opacity: 0;
+}
+
+
+/* ------------------------------
+4. Legend
+  ------------------------------ */
+
+#legend {
+  position: fixed;
+  top: 3vh;
+  right: 3vh;
+  padding: 1vh;
+}
+
+#legend-colour {
+  width: 100%;
+  height: auto; /* scales to screen size */
+}
+
+
+#legend-size-svg circle {
+  fill: #999;
+}
+
+#legend-size-svg {
+  margin-top: 2vh;
+}

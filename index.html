@@ -1,0 +1,90 @@
+<!--  --------------------------------------------------------------- -->
+ <!-- HTML here is mostly skeleton, except the legend method -->
+<!--  --------------------------------------------------------------- -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+    <!-- this adjusts to screen of device, rather than default. Prevents distortion. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olympic Medals</title>
+
+  <!-- load css file -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- load D3, TopoJSON and Winkel Tripel, and d3-legend package scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <!-- Load TopoJSON-->
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+  <!-- added to make the map Winkel Tripel <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4/dist/d3-geo-projection.min.js"></script>
+ <!-- To use d3.legendSize() and d3.legendColor() as per: https://using-d3js.com/04_08_legends.html -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="header-text">
+      <div class="k-number">K25130590</div>
+      <h1>Olympic Medals Awarded Since 2000</h1>
+
+    </div>
+
+  <!-- Season dropdown -->
+    <div class="season-dropdown">
+      <label for="season-label">Season</label>
+      <div class="season-wrap">
+        <select id="season-label">
+          <option value="Summer">Summer</option>
+          <option value="Winter">Winter</option>
+        </select>
+        <span class="season-arrow"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- map: D3 draws into this SVG -->
+  <svg id="chart"></svg>
+
+  <!-- Tooltip -->
+  <div id="tooltip" class="hide"></div>
+
+
+  <!-- Legend -->
+  <!-- source: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/linearGradient   sample code-->
+  <!-- Cols for RdYlBu from: https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=3 (5 class version)-->
+  <div id="legend">
+    <!-- Colour legend -->
+    <div class="legend-section">
+      <svg id="legend-colour" viewBox="0 0 180 45" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="tempGrad">
+            <stop offset="0%"   stop-color="#4575b4"/>
+            <stop offset="50%"  stop-color="#ffffbf"/>
+            <stop offset="100%" stop-color="#d73027"/>
+          </linearGradient>
+        </defs>
+         <text x="0" y="6" font-size="9" >Avg Temperature °C (1990-2022)</text>
+        <rect x="0" y="15" width="180" height="16" fill="url('#tempGrad')" />
+        <text id="legend-min" x="0"   y="40" font-size="9">-°</text>
+          <text id="legend-q1"  x="45"  y="40" font-size="9" text-anchor="middle">-°</text>
+          <text id="legend-mid" x="90"  y="40" font-size="9" text-anchor="middle">-°</text>
+          <text id="legend-q3"  x="135" y="40" font-size="9" text-anchor="middle">-°</text>
+        <text id="legend-max" x="180" y="40" font-size="9" text-anchor="end">-°</text>
+      </svg>
+    </div>
+    <!-- Size legend -->
+    <div class="legend-section">
+      <svg id="legend-size-svg" width="300" height="150"></svg>
+    </div>
+  </div>
+
+  <!-- load js file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
