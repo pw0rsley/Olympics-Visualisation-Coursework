@@ -93,7 +93,11 @@ body {
   pointer-events: none;
   position: fixed;
   transition: opacity 0.10s;
+  background: white;
+  padding: 5px;
+  border: 1px solid black;
 }
+
 
 /* Hides the tooltip when not hovering over a particular bubble */
 #tooltip.hide {
