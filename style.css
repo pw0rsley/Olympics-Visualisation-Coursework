@@ -1,135 +1,131 @@
-
 /* ---------------------------------------------------------------
- style.css handles the styling
+ style.css
  ----------------------------------------------------------------- */
-/* ------------------------------
-1. Page, dropdown, subtext
- ------------------------------ */
 
-
-/* Size page: ensure the page takes up the full height of any screen */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-/* Size chart */
-/* Used vh and vx as opposed to px to try to ensure marker gets consistent view regardless if its viewed on monitor or laptop. (for font size and positioning) */
-#chart {
-  flex: 1; /* fills all space EXCEPT the footnote */
-  width: 100%;
-  display: block;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  background: #f5f5f5;
 }
 
-.header-text {
-  text-align: left;
-  padding-left: 30vw;
-  width: 100%;
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 16px 24px 8px 24px;
+  flex-wrap: wrap;
 }
 
-
-.footnote {
-  width: 100%;
-  padding: 1vh 20px;
-  font-size: 0.7vw;
-  color: #777;
-  background-color: white;
-  box-sizing: border-box;
+/* Clamp allows to move from laptop to monitor with proportional changes.
+ rem = fontsize */
+header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
-  flex-shrink: 0;
 }
-
 
 .season-dropdown {
-    position: fixed;
-    right:32vw;
-    top:4vh;
-    font-size: 1vw;
-    font-weight: bold;
+  position: static;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .season-dropdown select {
-  font-size: 0.8vw;  /* bigger dropdown itself */
-  padding: 0.2vh 0.5vh;
+  font-size: 0.95rem;
+  padding: 4px 8px;
 }
 
-/* ------------------------------
-2. Map
-  ------------------------------ */
+/* Footnote moves with header */
+.footnote {
+  padding: 1px 24px 10px 24px;
+  font-size: 0.85rem;
+  color: #777;
+}
 
-/* Plain white fill with thin grey outlines so colours stand out */
+/* Chart */
+#chart {
+  width: 100%;
+  height: 100%;
+  display: block;
+  min-height: 500px;
+}
+
+.chart-wrap {
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+
+
+/* Map styling */
 .country {
   fill: white;
-  stroke: #aaa;
-  stroke-width: 0.07vh;
+  stroke: #777;
+  stroke-width: 0.7px;
 }
 
-/* Shared country borders (single merged path from topojson.mesh). Essential or else chunks of map appear black */
 .borders {
   fill: none;
   stroke: #777;
-  stroke-width: 0.08vh;
+  stroke-width: 0.8px;
 }
 
 .bubble {
   fill-opacity: 0.9;
   stroke: white;
-  stroke-width: 0.08vh;
+  stroke-width: 1px;
 }
 
-/* ------------------------------
-3. Tooltip
-  ------------------------------ */
-
-/* Ensures tooltip is visible (position) and smoother to look at (transition) */
+/* Tooltip */
 #tooltip {
   pointer-events: none;
   position: fixed;
-  transition: opacity 0.10s;
+  transition: opacity 0.1s;
   background: white;
-  padding: 5px;
+  padding: 6px 8px;
   border: 1px solid black;
 }
 
-
-/* Hides the tooltip when not hovering over a particular bubble */
 #tooltip.hide {
   opacity: 0;
 }
 
-
-/* ------------------------------
-4. Legend
-  ------------------------------ */
-
 #legend {
-  position: fixed;
-  top: 3vh;
-  right: 3vw;
-  padding: 1vh;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 18px;
+    width: fit-content;
+    min-width: 280px;
+    z-index: 10; /* essential with background col */
 }
 
 #legend-colour {
   width: 100%;
-}
-
-
-#legend-size-svg circle {
-  fill: #999;
+  max-width: 320px;
+  height: auto;
+  overflow: visible;
 }
 
 #legend-size-svg {
-  position: fixed;
-  top: 10vh;
-  right: 0vw;
-  padding: 2vh;
-  margin-top: 2vh;
+  width: 100%;
+  max-width: 320px;
+  height: 110px;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
 }
 
+#legend-size-svg circle {
+  fill: #aaa;
+}

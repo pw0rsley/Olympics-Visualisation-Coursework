@@ -4,7 +4,6 @@
 
 // Note: references and comments are written throughout.
 
-
 // ----------------------------------------------------------------
 // 1. LOAD DATA
 // ----------------------------------------------------------------
@@ -14,7 +13,6 @@ Promise.all([
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
     d3.json("countries.json")
     ]).then(([world, countries]) => {
-
 
  // ----------------------------------------------------------------
  // 2. SVG + PROJECTION
@@ -38,7 +36,6 @@ Promise.all([
     const projection = d3.geoWinkel3().fitExtent([[2, marginTop + 2], [width - 2, height]], land);
     const path = d3.geoPath(projection);
 
-
   // ----------------------------------------------------------------
   // 3. DRAW BASE MAP
   //-------------------------------------------------------------------
@@ -58,7 +55,6 @@ Promise.all([
     .datum(topojson.mesh(world, world.objects.countries))
     .attr("class", "borders")
     .attr("d", path);
-
 
   // ----------------------------------------------------------------
   // 4. COMPUTE CENTROIDS
@@ -96,7 +92,6 @@ radius.domain([0, overallMax]);
   // An empty <g> that updateBubbles() fills with circle elements.
   const bubbleOutput = svg.append("g");
 
-
   // ----------------------------------------------------------------
   // 7. UPDATEBUBBLES FUNCTION
   //----------------------------------------------------------------
@@ -123,7 +118,6 @@ radius.domain([0, overallMax]);
         total: d.medals[selectedSeason],
         position: centroidMap.get(d.numeric_id) // attach centroid positions
       })).filter(d => d.position && d.total > 0);  // only countries on map with medals & position in topojson.
-
 
 
     // D3 update pattern:
@@ -175,7 +169,6 @@ radius.domain([0, overallMax]);
       .on("mouseout", () => d3.select("#tooltip").classed("hide", true));
             }
 
-
       // ----------------------------------------------------
       // (RE)INITIALISE UPDATEBUBBLES
       // ----------------------------------------------------
@@ -184,7 +177,6 @@ radius.domain([0, overallMax]);
       updateBubbles("Summer");
       document.getElementById("season-label")
         .addEventListener("change", e => updateBubbles(e.target.value)); // Gets new HTML element value and re-renders updateBubbles with this. https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-
 
       // ----------------------------------------------------
       // BUILD LEGEND:
@@ -209,7 +201,6 @@ d3.select("#legend-size-svg")
   .attr("transform", "translate(10, 12)")
   .call(legendSize);
 
-
     // ----------------------------------------------------
     // COLOUR LEGEND:
     // ----------------------------------------------------
@@ -226,7 +217,6 @@ document.getElementById("legend-q1").textContent  = `${(minTemp + range/4).toFix
 document.getElementById("legend-mid").textContent = `${midTemp.toFixed(0)}°`;
 document.getElementById("legend-q3").textContent  = `${(minTemp + range*3/4).toFixed(0)}°`;
 document.getElementById("legend-max").textContent = `${maxTemp.toFixed(0)}°`;
-
     });
 
 
