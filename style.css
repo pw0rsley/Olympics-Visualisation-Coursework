@@ -6,11 +6,26 @@
 1. Page, dropdown, subtext
  ------------------------------ */
 
+
+/* Size page: ensure the page takes up the full height of any screen */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 /* Size chart */
 /* Used vh and vx as opposed to px to try to ensure marker gets consistent view regardless if its viewed on monitor or laptop. (for font size and positioning) */
 #chart {
-  display: block;
+  flex: 1; /* fills all space EXCEPT the footnote */
   width: 100%;
+  display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .header-text {
@@ -19,12 +34,16 @@
   width: 100%;
 }
 
+
 .footnote {
-  position: absolute;
-  bottom: 15px;
-  left: 20px;
-  font-size: 11px;
+  width: 100%;
+  padding: 1vh 20px;
+  font-size: 0.7vw;
   color: #777;
+  background-color: white;
+  box-sizing: border-box;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 
