@@ -1,31 +1,35 @@
 /* ---------------------------------------------------------------
  style.css
  ----------------------------------------------------------------- */
+/* decided to try to ensure live webapp would be flexible to screensize using
+a combination of flex & clamp. */
 
 html, body {
   height: 100%;
   margin: 0;
-  padding: 0;
 }
-
+/* changed css to use flex for live webapp deployment- or else distorts with screensize.  https://billdwhite.com/wordpress/2014/11/11/responsive-d3-charts-in-single-page-web-applications/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 body {
   display: flex;
   flex-direction: column;
   background: #f5f5f5;
 }
 
-/* Header layout */
+/* Header layout- header includes season dropdown and title */
 header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 24px;
-  padding: 16px 24px 8px 24px;
+  padding: 8px 24px 8px 24px;
   flex-wrap: wrap;
 }
 
 /* Clamp allows to move from laptop to monitor with proportional changes.
- rem = fontsize */
+ rem = font size */
+ /* clamp 3 args: (minimum, preferred, maximum) - e.g. if on small phone, doesnt go tiny */
 header h1 {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3rem);
@@ -33,20 +37,19 @@ header h1 {
 }
 
 .season-dropdown {
-  position: static;
-  font-size: 1rem;
+  font-size: clamp(0.75rem, 1vw, 4rem);
   font-weight: bold;
 }
 
 .season-dropdown select {
-  font-size: 0.95rem;
+  font-size: clamp(0.75rem, 1vw, 4rem);
   padding: 4px 8px;
 }
 
 /* Footnote moves with header */
 .footnote {
   padding: 1px 24px 10px 24px;
-  font-size: 0.85rem;
+  font-size: clamp(0.75rem, 0.85vw, 3rem);
   color: #777;
 }
 
@@ -64,20 +67,16 @@ header h1 {
   flex: 1;
 }
 
-
 /* Map styling */
-.country {
-  fill: white;
-  stroke: #777;
-  stroke-width: 0.7px;
+.country {fill: white;
+stroke: #777;
+stroke-width: 0.7px;
 }
-
 .borders {
-  fill: none;
-  stroke: #777;
-  stroke-width: 0.8px;
+fill: none;
+stroke: #777;
+stroke-width: 0.7px;
 }
-
 .bubble {
   fill-opacity: 0.9;
   stroke: white;
@@ -90,7 +89,7 @@ header h1 {
   position: fixed;
   transition: opacity 0.1s;
   background: white;
-  padding: 6px 8px;
+  padding: 6px 8px 6px 8px;
   border: 1px solid black;
 }
 
@@ -104,7 +103,7 @@ header h1 {
     bottom: 24px;
     display: flex;
     flex-direction: column;
-    padding: 16px 18px;
+    padding: 16px 18px 16px 18px;
     width: fit-content;
     min-width: 280px;
     z-index: 10; /* essential with background col */
@@ -113,7 +112,6 @@ header h1 {
 #legend-colour {
   width: 100%;
   max-width: 320px;
-  height: auto;
   overflow: visible;
 }
 
@@ -122,10 +120,16 @@ header h1 {
   max-width: 320px;
   height: 110px;
   overflow: visible;
-  padding: 0;
-  margin: 0;
 }
 
 #legend-size-svg circle {
   fill: #aaa;
+}
+
+/*  minimal media query: https://www.w3schools.com/css/css3_mediaqueries.asp */
+/* Only thing left to do is a flexible map size in JS for map, which i dont think is necessary for this assignment */
+@media (max-width: 900px) {
+  header {flex-direction: column; align-items: stretch;}
+  .controls {flex: 1 1 auto;}
+  header h1 {font-size: max(1.2rem, 6vw);}
 }
